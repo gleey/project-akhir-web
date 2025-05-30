@@ -23,14 +23,13 @@
     <!-- Navigation bar of the Document -->
     <nav>
         <ul id="navbar">
-            <li id="logo" style="float:left"><a href="index.html"><img src="resources/logos/logo.svg" alt="logo"></a></li>
-			<li><a href="home.html" ><span class="material-symbols-rounded">home</span><span class="nav__text">Home</span></a></li>
-			<li><a href="gallery.html" class="active"><span class="material-symbols-rounded">movie</span><span class="nav__text">Gallery</span></a></li>
-			<li><a href="shop.html"><span class="material-symbols-rounded">shop</span><span class="nav__text">Shop</span></a></li>
-			<li><a href="profile.html"><span class="material-symbols-rounded">account_circle</span><span class="nav__text">Profile</span></a></li>
-			<li><a href="sitemap.html"><span class="material-symbols-rounded">lan</span><span class="nav__text">Sitemap</span></a></li>
-			<li><a href="feedback.html"><span class="material-symbols-rounded">chat</span><span class="nav__text">Comments</span></a></li>
-			<li><a href="team.html"><span class="material-symbols-rounded">info</span><span class="nav__text">About Us</span></a></li>
+            <li id="logo" style="float:left"><a href="index.php"><img src="resources/logos/logo.svg" alt="logo"></a></li>
+			<li><a href="home.php" ><span class="material-symbols-rounded">home</span><span class="nav__text">Home</span></a></li>
+			<li><a href="gallery.php" class="active"><span class="material-symbols-rounded">movie</span><span class="nav__text">Gallery</span></a></li>
+			<li><a href="profile.php"><span class="material-symbols-rounded">account_circle</span><span class="nav__text">Profile</span></a></li>
+			<li><a href="sitemap.php"><span class="material-symbols-rounded">lan</span><span class="nav__text">Sitemap</span></a></li>
+			<li><a href="feedback.php"><span class="material-symbols-rounded">chat</span><span class="nav__text">Comments</span></a></li>
+			<li><a href="team.php"><span class="material-symbols-rounded">info</span><span class="nav__text">About Us</span></a></li>
 
 			<!-- Change color, font size and font family of the page -->
 			<li style="float: right">

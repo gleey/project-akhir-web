@@ -10,7 +10,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
             setTimeout(() => {
                 vision.classList.add("fade-out"); // Fade-out animation for vision
                 setTimeout(() => {
-                    window.location.href = "home.html";
+                    window.location.href = "home.php";
                 }, 2000); // Redirect to home page after 2 seconds of fade-out animation
             }, 1000);
         }, 1000);
