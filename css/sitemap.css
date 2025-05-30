@@ -1,0 +1,66 @@
+
+/* Background image settings */
+body{
+    /* background-image: url(../resources/images/sitemap/banner7.jpg); */
+    background-image: repeating-linear-gradient(135deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),repeating-linear-gradient(22.5deg, rgb(0,0,0) 0px, rgb(0,0,0) 10px,transparent 10px, transparent 11px),linear-gradient(90deg, hsl(194,74%,56%),hsl(266,74%,56%),hsl(338,74%,56%),hsl(50,74%,56%),hsl(122,74%,56%));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+/* Styles for the map container */
+#map{
+    width: 100%;
+    height: 600px;
+}
+  
+/* Styles for hover effect on map elements */
+#map g:hover text{
+    fill:#000000;
+    font-weight: bold;
+}
+
+#map g:hover rect{
+    fill: rgb(0, 255, 179);  /* Change fill color of rectangle on hover */
+    stroke:#ffffff;  /* Add stroke color to rectangle on hover */
+    stroke-width: 5px;  /* Set stroke width for rectangle on hover */
+}
+  
+/* Styles for the header section of the sitemap page */
+.sitehead{
+    width: 100%;
+    height: 50%;
+    margin-top: 5rem;
+}
+
+.sitehead h2{
+    font-size: 40px;
+    color: var(--theme-white);
+    margin-left: 690px;
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust heading font size and margin for even smaller screens */
+    .sitehead h2 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    /* Adjust map height for even smaller screens */
+    #map{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    /* Further adjust heading font size and margin for even smaller screens */
+    .sitehead h2 {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    /* Further adjust map height for even smaller screens */
+    #map{
+        height: 400px;
+    }
+}
