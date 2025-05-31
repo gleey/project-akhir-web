@@ -10,7 +10,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap">
-	<link rel="icon" type="image/svg" href="resources/logos/favicon.svg">
+	<link rel="icon" type="image/svg" href="resources/logos/evos.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
 </head>
 
@@ -18,14 +18,11 @@
     <!-- Navigation bar of the Document -->
     <nav>
         <ul id="navbar">
-            <li id="logo" style="float:left"><a href="index.html"><img src="resources/logos/logo.svg" alt="logo"></a></li>
-			<li><a href="home.html" class="active"><span class="material-symbols-rounded">home</span><span class="nav__text">Home</span></a></li>
-			<li><a href="gallery.html"><span class="material-symbols-rounded">movie</span><span class="nav__text">Gallery</span></a></li>
-			<li><a href="shop.html"><span class="material-symbols-rounded">shop</span><span class="nav__text">Shop</span></a></li>
-			<li><a href="profile.html"><span class="material-symbols-rounded">account_circle</span><span class="nav__text">Profile</span></a></li>
-			<li><a href="sitemap.html"><span class="material-symbols-rounded">lan</span><span class="nav__text">Sitemap</span></a></li>
-			<li><a href="feedback.html"><span class="material-symbols-rounded">chat</span><span class="nav__text">Comments</span></a></li>
-			<li><a href="team.html"><span class="material-symbols-rounded">info</span><span class="nav__text">About Us</span></a></li>
+            <li id="logo" style="float:left"><a href="home.php"><img src="resources/logos/evos.png" alt="logo"></a></li>
+			<li><a href="home.php" class="active"><span class="material-symbols-rounded">home</span><span class="nav__text">Home</span></a></li>
+			<li><a href="gallery.php"><span class="material-symbols-rounded">movie</span><span class="nav__text">Gallery</span></a></li>
+			<li><a href="feedback.php"><span class="material-symbols-rounded">chat</span><span class="nav__text">Comments</span></a></li>
+			<li><a href="team.php"><span class="material-symbols-rounded">info</span><span class="nav__text">About Us</span></a></li>
             
         </ul>
     </nav>
@@ -43,7 +40,7 @@
 	<div id="footer">
 		<div class="footer__container">
 			<div class="animate" id="dev">
-				<a href="subpages/lashen-info.html"><img src="resources/images/developers/Univ.png" alt="Lashen Martino"><span>TUGAS RPL</span></a>
+				<a href="subpages/lashen-info.html"><img src="resources/images/developers/Univ.png" alt="Lashen Martino"><span>TUGAS WEB</span></a>
 			</div>
 			<div class="footer__container__left">
 				<h3>Life on Land</h3>
@@ -52,7 +49,7 @@
 			<div class="footer__container__right">
 				<h3>Contact Us</h3>
 				<ul>
-					<li><a href="mailto:kelompokrpl@gmail.com">Email</a></li>
+					<li><a href="mailto:kelompokWweb@gmail.com">Email</a></li>
                     <li><a href="https://www.facebook.com">Facebook</a></li>
                     <li><a href="https://twitter.com">Twiter</a></li>
 				</ul>

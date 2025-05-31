@@ -318,3 +318,36 @@ li select{
     }
   }
 
+    .online-users-box {
+        margin-top: 30px;
+        padding: 20px;
+        border-radius: 10px;
+        background: #f0f8ff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-width: 400px;
+        font-family: Arial, sans-serif;
+    }
+
+    .online-users-box h3 {
+        margin-top: 0;
+        color: #0066cc;
+        font-size: 20px;
+    }
+
+    .online-users-box ul {
+        list-style-type: none;
+        padding-left: 0;
+    }
+
+    .online-users-box li {
+        background: #ffffff;
+        border: 1px solid #ddd;
+        margin-bottom: 5px;
+        padding: 10px;
+        border-radius: 5px;
+        color: #333;
+    }
+
+    .online-users-box p {
+        color: #666;
+    }

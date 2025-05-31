@@ -12,7 +12,7 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap">
-	<link rel="icon" type="image/svg" href="resources/logos/favicon.svg">
+	<link rel="icon" type="image/svg" href="resources/logos/evos.png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0">
 	
 	<!--Google fonts-->
@@ -23,11 +23,9 @@
     <!-- Navigation bar of the Document -->
     <nav>
         <ul id="navbar">
-            <li id="logo" style="float:left"><a href="index.php"><img src="resources/logos/logo.svg" alt="logo"></a></li>
+            <li id="logo" style="float:left"><a href="home.php"><img src="resources/logos/evos.png" alt="logo"></a></li>
 			<li><a href="home.php" ><span class="material-symbols-rounded">home</span><span class="nav__text">Home</span></a></li>
 			<li><a href="gallery.php" class="active"><span class="material-symbols-rounded">movie</span><span class="nav__text">Gallery</span></a></li>
-			<li><a href="profile.php"><span class="material-symbols-rounded">account_circle</span><span class="nav__text">Profile</span></a></li>
-			<li><a href="sitemap.php"><span class="material-symbols-rounded">lan</span><span class="nav__text">Sitemap</span></a></li>
 			<li><a href="feedback.php"><span class="material-symbols-rounded">chat</span><span class="nav__text">Comments</span></a></li>
 			<li><a href="team.php"><span class="material-symbols-rounded">info</span><span class="nav__text">About Us</span></a></li>
 

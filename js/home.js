@@ -43,6 +43,6 @@ visit(article2, "./subpages/article2.html");
 visit(article3, "./subpages/article3.html");
 visit(article4, "./subpages/article4.html");
 visit(life_on_land, "./subpages/life-on-land.html");  
-visit(web__gallery, "./gallery.html");
+visit(web__gallery, "./gallery.php");
 visit(target__banner, "./subpages/targets-indicators.html");
 visit(SDGs, "./subpages/united-nations-goals.html");

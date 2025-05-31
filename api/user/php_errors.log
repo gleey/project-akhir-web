@@ -1,0 +1,39 @@
+[31-May-2025 16:29:45 Europe/Berlin] PHP Warning:  include_once(api/config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\api\user\login.php on line 11
+[31-May-2025 16:29:45 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'api/config/database.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\api\user\login.php on line 11
+[31-May-2025 16:29:45 Europe/Berlin] PHP Warning:  include_once(api/objects/user.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\api\user\login.php on line 12
+[31-May-2025 16:29:45 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'api/objects/user.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\api\user\login.php on line 12
+[31-May-2025 16:29:45 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\web\api\user\login.php:15
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\web\api\user\login.php on line 15
+[31-May-2025 16:33:15 Europe/Berlin] PHP Warning:  include_once(api/config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\api\user\login.php on line 12
+[31-May-2025 16:33:15 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'api/config/database.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\api\user\login.php on line 12
+[31-May-2025 16:33:15 Europe/Berlin] PHP Warning:  include_once(api/objects/user.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\api\user\login.php on line 13
+[31-May-2025 16:33:15 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'api/objects/user.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\api\user\login.php on line 13
+[31-May-2025 16:33:15 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\web\api\user\login.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\web\api\user\login.php on line 16
+[31-May-2025 16:33:37 Europe/Berlin] PHP Warning:  include_once(api/config/database.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\api\user\login.php on line 12
+[31-May-2025 16:33:37 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'api/config/database.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\api\user\login.php on line 12
+[31-May-2025 16:33:37 Europe/Berlin] PHP Warning:  include_once(api/objects/user.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\web\api\user\login.php on line 13
+[31-May-2025 16:33:37 Europe/Berlin] PHP Warning:  include_once(): Failed opening 'api/objects/user.php' for inclusion (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\api\user\login.php on line 13
+[31-May-2025 16:33:37 Europe/Berlin] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\web\api\user\login.php:16
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\web\api\user\login.php on line 16
+[31-May-2025 16:34:53 Europe/Berlin] Database connection successful
+[31-May-2025 16:34:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
+[31-May-2025 16:34:53 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
+[31-May-2025 16:35:40 Europe/Berlin] Database connection successful
+[31-May-2025 16:35:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
+[31-May-2025 16:35:40 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
+[31-May-2025 16:40:09 Europe/Berlin] Database connection successful
+[31-May-2025 16:40:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
+[31-May-2025 16:40:09 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
+[31-May-2025 16:55:48 Europe/Berlin] Database connection successful
+[31-May-2025 16:55:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
+[31-May-2025 16:55:48 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
+[31-May-2025 17:48:59 Europe/Berlin] Database connection successful
+[31-May-2025 17:48:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
+[31-May-2025 17:48:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
