@@ -1,40 +1,54 @@
 <?php
-// Turn off display errors to prevent HTML output
 ini_set('display_errors', 0);
 ini_set('log_errors', 1);
-ini_set('error_log', 'php_errors.log'); // Ensure this path is writable
-
-// Set JSON content type
+ini_set('error_log', 'php_errors.log');
 header('Content-Type: application/json');
+ob_start(); // Prevent unexpected output
 
-// include database and object files
 try {
     include_once '../config/database.php';
     include_once '../objects/user.php';
- 
-    // get database connection
+
     $database = new Database();
     $db = $database->getConnection();
- 
-    // prepare user object
     $user = new User($db);
-    // set user properties
+
     $user->username = isset($_POST['username']) ? $_POST['username'] : die(json_encode(['status' => false, 'message' => 'Username not provided']));
     $user->password = isset($_POST['password']) ? $_POST['password'] : die(json_encode(['status' => false, 'message' => 'Password not provided']));
 
-    // read the details of user to be edited
+    error_log("Login attempt: username={$user->username}, password={$user->password}"); // Debug input
+
     $stmt = $user->login();
     if ($stmt && $stmt->rowCount() > 0) {
-        // get retrieved row
         $row = $stmt->fetch(PDO::FETCH_ASSOC);
-        // create array
-        $user_arr = [
-            "status" => true,
-            "message" => "Successfully Login!",
-            "id" => $row['id'],
-            "username" => $row['username']
-        ];
+        error_log("Fetched row: " . print_r($row, true)); // Debug fetched data
+        if ($row) {
+            // Update is_logged_in status
+            $update_query = "UPDATE users SET is_logged_in = 1 WHERE username = :username";
+            $update_stmt = $db->prepare($update_query);
+            $update_stmt->bindParam(':username', $user->username);
+            $update_stmt->execute();
+            error_log("is_logged_in updated for username={$user->username}");
+
+            $user_arr = [
+                "status" => true,
+                "message" => "Successfully Login!",
+                "id" => $row['id'],
+                "username" => $row['username'],
+                "role" => $row['role'] ?? 'member'
+            ];
+            session_start();
+            $_SESSION['username'] = $row['username'];
+            $_SESSION['role'] = $row['role'] ?? 'member';
+            $_SESSION['last_activity'] = time();
+        } else {
+            $user_arr = [
+                "status" => false,
+                "message" => "Failed to fetch user data"
+            ];
+        }
     } else {
+        error_log("No user found or query failed"); // Debug query failure
         $user_arr = [
             "status" => false,
             "message" => "Invalid Username or Password!"
@@ -48,6 +62,6 @@ try {
     ];
 }
 
-// Output JSON
+ob_end_clean();
 echo json_encode($user_arr);
 ?>

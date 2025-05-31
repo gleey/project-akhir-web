@@ -7,7 +7,7 @@ $database = new Database();
 $db = $database->getConnection();
 
 // Query to fetch online users
-$query = "SELECT username FROM users WHERE is_logged_in = 1";
+$query = "SELECT username FROM users WHERE is_logged_in = 1 AND role = 'member'";
 $stmt = $db->prepare($query);
 $stmt->execute();
 $online_users = $stmt->fetchAll(PDO::FETCH_ASSOC);
@@ -144,7 +144,7 @@ Bersama-sama, kami membayangkan dunia di mana umat manusia dan alam hidup berdam
 	<div id="footer">
 		<div class="footer__container">
 			<div class="animate" id="dev">
-				<a href="subpages/lashen-info.html"><img src="resources/images/developers/Univ.png" alt="Lashen Martino"><span>TUGAS WEB</span></a>
+				<a href="https://www.unsrat.ac.id/"><img src="resources/images/developers/Univ.png" alt="UNSRAT"><span>TUGAS WEB</span></a>
 			</div>
 			<div class="footer__container__left">
 				<h3>Life on Land</h3>

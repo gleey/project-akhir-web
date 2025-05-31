@@ -1,35 +1,29 @@
 <?php
- 
-// get database connection
 include_once '../config/database.php';
- 
-// instantiate user object
 include_once '../objects/user.php';
- 
+
 $database = new Database();
 $db = $database->getConnection();
- 
 $user = new User($db);
- 
-// set user property values
+
 $user->username = $_POST['username'];
 $user->password = base64_encode($_POST['password']);
+$user->role = isset($_POST['role']) ? $_POST['role'] : 'member'; // Default ke member
 $user->created = date('Y-m-d H:i:s');
- 
-// create the user
-if($user->signup()){
-    $user_arr=array(
+
+if ($user->signup()) {
+    $user_arr = [
         "status" => true,
         "message" => "Successfully Signup!",
         "id" => $user->id,
-        "username" => $user->username
-    );
-}
-else{
-    $user_arr=array(
+        "username" => $user->username,
+        "role" => $user->role
+    ];
+} else {
+    $user_arr = [
         "status" => false,
         "message" => "Username already exists!"
-    );
+    ];
 }
-print_r(json_encode($user_arr));
+echo json_encode($user_arr);
 ?>

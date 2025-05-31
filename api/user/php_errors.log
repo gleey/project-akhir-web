@@ -37,3 +37,214 @@ Stack trace:
 [31-May-2025 17:48:59 Europe/Berlin] Database connection successful
 [31-May-2025 17:48:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
 [31-May-2025 17:48:59 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
+[31-May-2025 19:23:56 Europe/Berlin] Database connection successful
+[31-May-2025 19:23:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 34
+[31-May-2025 19:23:56 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 35
+[31-May-2025 21:19:00 Europe/Berlin] Database connection successful
+[31-May-2025 21:19:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:19:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:19:00 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:19:08 Europe/Berlin] Database connection successful
+[31-May-2025 21:19:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:19:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:19:08 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:22:30 Europe/Berlin] Database connection successful
+[31-May-2025 21:22:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:22:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:22:30 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:23:11 Europe/Berlin] Database connection successful
+[31-May-2025 21:23:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:23:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:23:11 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:23:22 Europe/Berlin] Database connection successful
+[31-May-2025 21:23:24 Europe/Berlin] Database connection successful
+[31-May-2025 21:23:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:23:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:23:24 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:24:03 Europe/Berlin] Database connection successful
+[31-May-2025 21:24:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:24:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:24:03 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:26:25 Europe/Berlin] Database connection successful
+[31-May-2025 21:26:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:26:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:26:25 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:27:17 Europe/Berlin] Database connection successful
+[31-May-2025 21:27:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:27:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:27:17 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:27:27 Europe/Berlin] Database connection successful
+[31-May-2025 21:27:35 Europe/Berlin] Database connection successful
+[31-May-2025 21:27:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 24
+[31-May-2025 21:27:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 25
+[31-May-2025 21:27:35 Europe/Berlin] PHP Warning:  Trying to access array offset on value of type bool in C:\xampp\htdocs\web\api\user\login.php on line 26
+[31-May-2025 21:34:15 Europe/Berlin] Database connection successful
+[31-May-2025 21:34:27 Europe/Berlin] Database connection successful
+[31-May-2025 21:34:37 Europe/Berlin] Database connection successful
+[31-May-2025 21:34:40 Europe/Berlin] Database connection successful
+[31-May-2025 21:48:59 Europe/Berlin] Database connection successful
+[31-May-2025 21:48:59 Europe/Berlin] Login attempt: username=admin, password=YWRtaW4xMjM=
+[31-May-2025 21:48:59 Europe/Berlin] Login query executed: username=admin, rowCount=1
+[31-May-2025 21:48:59 Europe/Berlin] Fetched row: Array
+(
+    [id] => 10
+    [username] => admin
+    [password] => YWRtaW4xMjM=
+    [role] => admin
+    [created] => 2025-06-01 03:32:14
+)
+
+[31-May-2025 21:50:42 Europe/Berlin] Database connection successful
+[31-May-2025 21:50:42 Europe/Berlin] Login attempt: username=member, password=MTIzNA==
+[31-May-2025 21:50:42 Europe/Berlin] Login query executed: username=member, rowCount=1
+[31-May-2025 21:50:42 Europe/Berlin] Fetched row: Array
+(
+    [id] => 11
+    [username] => member
+    [password] => MTIzNA==
+    [role] => member
+    [created] => 2025-05-31 21:49:16
+)
+
+[31-May-2025 21:51:01 Europe/Berlin] Database connection successful
+[31-May-2025 21:51:01 Europe/Berlin] Login attempt: username=member, password=MTIzNA==
+[31-May-2025 21:51:01 Europe/Berlin] Login query executed: username=member, rowCount=1
+[31-May-2025 21:51:01 Europe/Berlin] Fetched row: Array
+(
+    [id] => 11
+    [username] => member
+    [password] => MTIzNA==
+    [role] => member
+    [created] => 2025-05-31 21:49:16
+)
+
+[31-May-2025 21:57:59 Europe/Berlin] Database connection successful
+[31-May-2025 21:57:59 Europe/Berlin] Login attempt: username=admin, password=admin123
+[31-May-2025 21:57:59 Europe/Berlin] Login query executed: username=admin, rowCount=0
+[31-May-2025 21:57:59 Europe/Berlin] No user found or query failed
+[31-May-2025 21:58:02 Europe/Berlin] Database connection successful
+[31-May-2025 21:58:02 Europe/Berlin] Login attempt: username=admin123, password=admin123
+[31-May-2025 21:58:02 Europe/Berlin] Login query executed: username=admin123, rowCount=0
+[31-May-2025 21:58:02 Europe/Berlin] No user found or query failed
+[31-May-2025 21:58:11 Europe/Berlin] Database connection successful
+[31-May-2025 21:58:11 Europe/Berlin] Login attempt: username=admin, password=admin123
+[31-May-2025 21:58:11 Europe/Berlin] Login query executed: username=admin, rowCount=0
+[31-May-2025 21:58:11 Europe/Berlin] No user found or query failed
+[31-May-2025 21:59:00 Europe/Berlin] Database connection successful
+[31-May-2025 21:59:00 Europe/Berlin] Login attempt: username=admin, password=YWRtaW4xMjM=
+[31-May-2025 21:59:00 Europe/Berlin] Login query executed: username=admin, rowCount=1
+[31-May-2025 21:59:00 Europe/Berlin] Fetched row: Array
+(
+    [id] => 10
+    [username] => admin
+    [password] => YWRtaW4xMjM=
+    [role] => admin
+    [created] => 2025-06-01 03:32:14
+)
+
+[31-May-2025 22:11:46 Europe/Berlin] Database connection successful
+[31-May-2025 22:11:46 Europe/Berlin] Login attempt: username=ryan, password=MTIz
+[31-May-2025 22:11:46 Europe/Berlin] Login query executed: username=ryan, rowCount=1
+[31-May-2025 22:11:46 Europe/Berlin] Fetched row: Array
+(
+    [id] => 16
+    [username] => ryan
+    [password] => MTIz
+    [role] => member
+    [created] => 2025-05-31 22:11:38
+)
+
+[31-May-2025 22:24:30 Europe/Berlin] Database connection successful
+[31-May-2025 22:24:30 Europe/Berlin] Login attempt: username=ryan, password=MTI=
+[31-May-2025 22:24:30 Europe/Berlin] Login query executed: username=ryan, rowCount=0
+[31-May-2025 22:24:30 Europe/Berlin] No user found or query failed
+[31-May-2025 22:24:33 Europe/Berlin] Database connection successful
+[31-May-2025 22:24:33 Europe/Berlin] Login attempt: username=ryan, password=MTIz
+[31-May-2025 22:24:33 Europe/Berlin] Login query executed: username=ryan, rowCount=1
+[31-May-2025 22:24:33 Europe/Berlin] Fetched row: Array
+(
+    [id] => 16
+    [username] => ryan
+    [password] => MTIz
+    [role] => member
+    [created] => 2025-05-31 22:11:38
+)
+
+[31-May-2025 22:26:21 Europe/Berlin] Database connection successful
+[31-May-2025 22:26:21 Europe/Berlin] Login attempt: username=ryan, password=MTIz
+[31-May-2025 22:26:21 Europe/Berlin] Login query executed: username=ryan, rowCount=1
+[31-May-2025 22:26:21 Europe/Berlin] Fetched row: Array
+(
+    [id] => 16
+    [username] => ryan
+    [password] => MTIz
+    [role] => member
+    [created] => 2025-05-31 22:11:38
+)
+
+[31-May-2025 22:29:44 Europe/Berlin] Database connection successful
+[31-May-2025 22:29:44 Europe/Berlin] Login attempt: username=gley, password=MTIzNA==
+[31-May-2025 22:29:44 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:29:44 Europe/Berlin] No user found or query failed
+[31-May-2025 22:29:47 Europe/Berlin] Database connection successful
+[31-May-2025 22:29:47 Europe/Berlin] Login attempt: username=gley, password=MTI=
+[31-May-2025 22:29:47 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:29:47 Europe/Berlin] No user found or query failed
+[31-May-2025 22:29:50 Europe/Berlin] Database connection successful
+[31-May-2025 22:29:50 Europe/Berlin] Login attempt: username=gley, password=MTIz
+[31-May-2025 22:29:50 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:29:50 Europe/Berlin] No user found or query failed
+[31-May-2025 22:29:54 Europe/Berlin] Database connection successful
+[31-May-2025 22:29:54 Europe/Berlin] Login attempt: username=gley, password=NDU2
+[31-May-2025 22:29:54 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:29:54 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:00 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:00 Europe/Berlin] Login attempt: username=gley, password=MzQ1
+[31-May-2025 22:30:00 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:30:00 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:05 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:05 Europe/Berlin] Login attempt: username=gley, password=NDU2
+[31-May-2025 22:30:05 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:30:05 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:11 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:11 Europe/Berlin] Login attempt: username=gley, password=MTI=
+[31-May-2025 22:30:11 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:30:11 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:18 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:18 Europe/Berlin] Login attempt: username=gley, password=MTIz
+[31-May-2025 22:30:18 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:30:18 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:21 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:21 Europe/Berlin] Login attempt: username=gley, password=MTIzNA==
+[31-May-2025 22:30:21 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[31-May-2025 22:30:21 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:25 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:25 Europe/Berlin] Login attempt: username=gley, password=MjM0
+[31-May-2025 22:30:25 Europe/Berlin] Login query executed: username=gley, rowCount=1
+[31-May-2025 22:30:25 Europe/Berlin] Fetched row: Array
+(
+    [id] => 12
+    [username] => gley
+    [password] => MjM0
+    [role] => member
+    [created] => 2025-05-31 21:55:54
+)
+
+[31-May-2025 22:30:25 Europe/Berlin] is_logged_in updated for username=gley
+[31-May-2025 22:30:32 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:32 Europe/Berlin] Login attempt: username=ryan, password=MTI=
+[31-May-2025 22:30:32 Europe/Berlin] Login query executed: username=ryan, rowCount=0
+[31-May-2025 22:30:32 Europe/Berlin] No user found or query failed
+[31-May-2025 22:30:34 Europe/Berlin] Database connection successful
+[31-May-2025 22:30:34 Europe/Berlin] Login attempt: username=ryan, password=MTIz
+[31-May-2025 22:30:34 Europe/Berlin] Login query executed: username=ryan, rowCount=1
+[31-May-2025 22:30:34 Europe/Berlin] Fetched row: Array
+(
+    [id] => 16
+    [username] => ryan
+    [password] => MTIz
+    [role] => member
+    [created] => 2025-05-31 22:11:38
+)
+
+[31-May-2025 22:30:34 Europe/Berlin] is_logged_in updated for username=ryan

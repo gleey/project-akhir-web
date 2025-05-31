@@ -33,7 +33,7 @@
         <h1>Send your feedback</h1>
         <div class="form__bg">
             <!-- Form submit reference = https://formsubmit.co/?utm_source=formsubmit.co&utm_medium=site%20link&utm_campaign=submission%20page -->
-            <form id="form" action="https://formsubmit.co/lashenmartino@gmail.com" method="POST">
+            <form id="form" action="https://formsubmit.co/gracianotilaar@gmail.com" method="POST">
 
                 <div class="form__container animate">
                     <span>Was this your first time visiting?</span>
@@ -137,7 +137,7 @@
     <div id="footer">
 		<div class="footer__container">
 			<div class="animate" id="dev">
-				<a href="subpages/lashen-info.html"><img src="resources/images/developers/Univ.png" alt="Lashen Martino"><span>TUGAS WEB</span></a>
+				<a href="https://www.unsrat.ac.id/"><img src="resources/images/developers/Univ.png" alt="UNSRAT"><span>TUGAS WEB</span></a>
 			</div>
 			<div class="footer__container__left">
 				<h3>Life on Land</h3>

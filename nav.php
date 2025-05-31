@@ -40,7 +40,7 @@
 	<div id="footer">
 		<div class="footer__container">
 			<div class="animate" id="dev">
-				<a href="subpages/lashen-info.html"><img src="resources/images/developers/Univ.png" alt="Lashen Martino"><span>TUGAS WEB</span></a>
+				<a href="https://www.unsrat.ac.id/"><img src="resources/images/developers/Univ.png" alt="UNSRAT"><span>TUGAS WEB</span></a>
 			</div>
 			<div class="footer__container__left">
 				<h3>Life on Land</h3>

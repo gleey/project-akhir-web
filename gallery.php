@@ -402,7 +402,7 @@
 	<div id="footer">
 		<div class="footer__container">
 			<div class="animate" id="dev">
-				<a href="subpages/rehan-info.html"><img src="resources/images/developers/Univ.png" alt="Rehan Godakumbura"><span>Universitas Sam Ratulangi</span></a>
+				<a href="https://www.unsrat.ac.id/"><img src="resources/images/developers/Univ.png" alt="UNSRAT"><span>Universitas Sam Ratulangi</span></a>
 			</div>
 			<div class="footer__container__left">
 				<h3>Life on Land</h3>

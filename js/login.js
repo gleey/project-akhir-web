@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = document.querySelector('.sign-in-htm .group input[name="username"]').value;
         const password = document.querySelector('.sign-in-htm .group input[name="password"]').value;
         
-        // Base64 encode the password to match backend
         const encodedPassword = btoa(password);
         
         const xhr = new XMLHttpRequest();
@@ -15,12 +14,20 @@ document.addEventListener('DOMContentLoaded', function() {
         
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.onload = function() {
-            console.log('Status:', xhr.status, 'Response:', xhr.responseText); // Debug status and response
+            console.log('Status:', xhr.status, 'Response:', xhr.responseText);
             if (xhr.status === 200) {
                 try {
                     const response = JSON.parse(xhr.responseText);
+                    console.log('Parsed Response:', response); // Debug the full response
                     if (response.status) {
-                        window.location.href = 'home.php';
+                        console.log('User Role:', response.role); // Debug the role
+                        if (response.role === 'admin') {
+                            console.log('Redirecting to admin.php');
+                            window.location.href = 'admin.php';
+                        } else {
+                            console.log('Redirecting to home.php');
+                            window.location.href = 'home.php';
+                        }
                     } else {
                         alert(response.message);
                     }
