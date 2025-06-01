@@ -37,7 +37,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
         .error { color: red; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color: #f2f2f2; }
+        th { background-color:rgb(0, 0, 0); }
         button, a.button { padding: 5px 10px; text-decoration: none; color: #fff; background-color: #007bff; border-radius: 3px; }
         a.button.delete { background-color: #dc3545; }
     </style>
@@ -51,7 +51,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
             <li><a href="feedback.php"><span class="material-symbols-rounded">chat</span><span class="nav__text">Comments</span></a></li>
             <li><a href="team.php"><span class="material-symbols-rounded">info</span><span class="nav__text">About Us</span></a></li>
             <li><a href="admin.php" class="active"><span class="material-symbols-rounded">admin_panel_settings</span><span class="nav__text">Admin Dashboard</span></a></li>
-            <li><a href="api/user/logout.php" class="logout-button"><span class="material-symbols-rounded">logout</span><span class="nav__text">Logout</span></a></li>
+            <li id="logout-nav"><a href="api/user/logout.php" class="logout-button"><span class="material-symbols-rounded">logout</span><span class="nav__text">Logout</span></a></li>
         </ul>
     </nav>
 
