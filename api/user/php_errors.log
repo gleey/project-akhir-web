@@ -261,3 +261,107 @@ Stack trace:
 )
 
 [01-Jun-2025 08:56:34 Europe/Berlin] is_logged_in updated for username=admin
+[01-Jun-2025 13:57:13 Europe/Berlin] Database connection successful
+[01-Jun-2025 13:57:13 Europe/Berlin] Login attempt: username=admin, password=YWRtaW4xMjM=
+[01-Jun-2025 13:57:13 Europe/Berlin] Login query executed: username=admin, rowCount=1
+[01-Jun-2025 13:57:13 Europe/Berlin] Fetched row: Array
+(
+    [id] => 10
+    [username] => admin
+    [password] => YWRtaW4xMjM=
+    [role] => admin
+    [created] => 2025-06-01 14:56:34
+)
+
+[01-Jun-2025 13:57:13 Europe/Berlin] is_logged_in updated for username=admin
+[01-Jun-2025 13:58:11 Europe/Berlin] Database connection successful
+[01-Jun-2025 13:58:11 Europe/Berlin] Login attempt: username=ryan, password=MTI=
+[01-Jun-2025 13:58:11 Europe/Berlin] Login query executed: username=ryan, rowCount=0
+[01-Jun-2025 13:58:11 Europe/Berlin] No user found or query failed
+[01-Jun-2025 13:58:13 Europe/Berlin] Database connection successful
+[01-Jun-2025 13:58:13 Europe/Berlin] Login attempt: username=ryan, password=MTIz
+[01-Jun-2025 13:58:13 Europe/Berlin] Login query executed: username=ryan, rowCount=1
+[01-Jun-2025 13:58:13 Europe/Berlin] Fetched row: Array
+(
+    [id] => 16
+    [username] => ryan
+    [password] => MTIz
+    [role] => member
+    [created] => 2025-06-01 04:30:34
+)
+
+[01-Jun-2025 13:58:13 Europe/Berlin] is_logged_in updated for username=ryan
+[01-Jun-2025 14:08:58 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:08:58 Europe/Berlin] Login attempt: username=wer, password=MTI=
+[01-Jun-2025 14:08:58 Europe/Berlin] Login query executed: username=wer, rowCount=0
+[01-Jun-2025 14:08:58 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:19 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:19 Europe/Berlin] Login attempt: username=qwe, password=MTI=
+[01-Jun-2025 14:12:19 Europe/Berlin] Login query executed: username=qwe, rowCount=0
+[01-Jun-2025 14:12:19 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:26 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:26 Europe/Berlin] Login attempt: username=qwe, password=MTIz
+[01-Jun-2025 14:12:26 Europe/Berlin] Login query executed: username=qwe, rowCount=0
+[01-Jun-2025 14:12:26 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:33 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:33 Europe/Berlin] Login attempt: username=qwe, password=cXdl
+[01-Jun-2025 14:12:33 Europe/Berlin] Login query executed: username=qwe, rowCount=0
+[01-Jun-2025 14:12:33 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:36 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:36 Europe/Berlin] Login attempt: username=qwe, password=MTI=
+[01-Jun-2025 14:12:36 Europe/Berlin] Login query executed: username=qwe, rowCount=0
+[01-Jun-2025 14:12:36 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:39 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:39 Europe/Berlin] Login attempt: username=qwe, password=MTIzNA==
+[01-Jun-2025 14:12:39 Europe/Berlin] Login query executed: username=qwe, rowCount=0
+[01-Jun-2025 14:12:39 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:50 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:50 Europe/Berlin] Login attempt: username=yadi, password=MTI=
+[01-Jun-2025 14:12:50 Europe/Berlin] Login query executed: username=yadi, rowCount=0
+[01-Jun-2025 14:12:50 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:52 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:52 Europe/Berlin] Login attempt: username=yadi, password=MTI=
+[01-Jun-2025 14:12:52 Europe/Berlin] Login query executed: username=yadi, rowCount=0
+[01-Jun-2025 14:12:52 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:12:58 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:12:58 Europe/Berlin] Login attempt: username=yadi, password=MTI=
+[01-Jun-2025 14:12:58 Europe/Berlin] Login query executed: username=yadi, rowCount=0
+[01-Jun-2025 14:12:58 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:13:10 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:13:10 Europe/Berlin] Login attempt: username=admin, password=YWRtaW4xMjM=
+[01-Jun-2025 14:13:10 Europe/Berlin] Login query executed: username=admin, rowCount=1
+[01-Jun-2025 14:13:10 Europe/Berlin] Fetched row: Array
+(
+    [id] => 10
+    [username] => admin
+    [password] => YWRtaW4xMjM=
+    [role] => admin
+    [created] => 2025-06-01 19:58:07
+)
+
+[01-Jun-2025 14:13:10 Europe/Berlin] is_logged_in updated for username=admin
+[01-Jun-2025 14:13:21 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:13:21 Europe/Berlin] Login attempt: username=gley, password=MTI=
+[01-Jun-2025 14:13:21 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[01-Jun-2025 14:13:21 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:13:23 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:13:23 Europe/Berlin] Login attempt: username=gley, password=MTIz
+[01-Jun-2025 14:13:23 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[01-Jun-2025 14:13:23 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:13:25 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:13:25 Europe/Berlin] Login attempt: username=gley, password=MTIzNA==
+[01-Jun-2025 14:13:25 Europe/Berlin] Login query executed: username=gley, rowCount=0
+[01-Jun-2025 14:13:25 Europe/Berlin] No user found or query failed
+[01-Jun-2025 14:13:28 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:13:28 Europe/Berlin] Login attempt: username=gley, password=MjM0
+[01-Jun-2025 14:13:28 Europe/Berlin] Login query executed: username=gley, rowCount=1
+[01-Jun-2025 14:13:28 Europe/Berlin] Fetched row: Array
+(
+    [id] => 12
+    [username] => gley
+    [password] => MjM0
+    [role] => member
+    [created] => 2025-06-01 04:30:29
+)
+
+[01-Jun-2025 14:13:28 Europe/Berlin] is_logged_in updated for username=gley
