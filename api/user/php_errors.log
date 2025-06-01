@@ -365,3 +365,16 @@ Stack trace:
 )
 
 [01-Jun-2025 14:13:28 Europe/Berlin] is_logged_in updated for username=gley
+[01-Jun-2025 14:22:11 Europe/Berlin] Database connection successful
+[01-Jun-2025 14:22:11 Europe/Berlin] Login attempt: username=admin, password=YWRtaW4xMjM=
+[01-Jun-2025 14:22:11 Europe/Berlin] Login query executed: username=admin, rowCount=1
+[01-Jun-2025 14:22:11 Europe/Berlin] Fetched row: Array
+(
+    [id] => 10
+    [username] => admin
+    [password] => YWRtaW4xMjM=
+    [role] => admin
+    [created] => 2025-06-01 20:13:13
+)
+
+[01-Jun-2025 14:22:11 Europe/Berlin] is_logged_in updated for username=admin

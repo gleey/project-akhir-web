@@ -37,9 +37,9 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
         .error { color: red; }
         table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
-        th { background-color:rgb(0, 0, 0); }
+        th { background-color: #000; }
         button, a.button { padding: 5px 10px; text-decoration: none; color: #fff; background-color: #007bff; border-radius: 3px; }
-        a.button.delete { background-color: #dc3545; }
+        button.delete { background-color: #dc3545; cursor: pointer; }
     </style>
 </head>
 <body>
@@ -58,16 +58,12 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
     <div class="container">
         <h1>Admin Dashboard</h1>
 
-        <!-- Notifikasi -->
-        <?php if (isset($_GET['status'])): ?>
-            <p class="<?php echo $_GET['status'] == 'success' ? 'success' : 'error'; ?>">
-                <?php echo $_GET['status'] == 'success' ? 'Operation successful!' : 'Error: ' . ($_GET['message'] ?? 'Operation failed.'); ?>
-            </p>
-        <?php endif; ?>
+        <!-- Notification -->
+        <div id="notification" style="display: none; padding: 10px; margin-bottom: 20px;"></div>
 
-        <!-- Form Tambah/Edit Konten -->
+        <!-- Add/Edit Content Form -->
         <h2>Add/Edit Content</h2>
-        <form id="content_form" method="POST" action="api/content/save.php" enctype="multipart/form-data">
+        <form id="content_form" method="POST" enctype="multipart/form-data" action="javascript:void(0)">
             <input type="hidden" name="id" id="content_id">
             <label for="title">Title</label>
             <input type="text" name="title" id="title" required>
@@ -77,6 +73,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
             
             <label for="image">Image</label>
             <input type="file" name="image" id="image" accept="image/*">
+            <div id="current_image" style="display: none; margin-top: 5px;"></div>
             
             <label for="category">Category</label>
             <select name="category" id="category">
@@ -89,7 +86,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
             <input type="submit" value="Save Content">
         </form>
 
-        <!-- Daftar Konten -->
+        <!-- Content List -->
         <h2>Content List</h2>
         <table>
             <thead>
@@ -108,8 +105,14 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
                             <td><?php echo htmlspecialchars($content['category']); ?></td>
                             <td><?php echo htmlspecialchars($content['created_at']); ?></td>
                             <td>
-                                <button onclick="editContent(<?php echo $content['id']; ?>, '<?php echo htmlspecialchars($content['title'], ENT_QUOTES); ?>', '<?php echo htmlspecialchars($content['description'], ENT_QUOTES); ?>', '<?php echo htmlspecialchars($content['category'], ENT_QUOTES); ?>')">Edit</button>
-                                <a href="api/content/delete.php?id=<?php echo $content['id']; ?>" class="button delete" onclick="return confirm('Are you sure you want to delete this content?')">Delete</a>
+                                <button class="edit-button" data-content='<?php echo json_encode([
+                                    "id" => $content["id"],
+                                    "title" => $content["title"],
+                                    "description" => $content["description"],
+                                    "category" => $content["category"],
+                                    "image_path" => $content["image_path"] ?? ""
+                                ], JSON_HEX_QUOT | JSON_HEX_APOS); ?>'>Edit</button>
+                                <button class="delete" onclick="deleteContent(<?php echo $content['id']; ?>)">Delete</button>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -121,7 +124,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
             </tbody>
         </table>
 
-        <!-- Daftar Pengguna -->
+        <!-- User List -->
         <h2>User List</h2>
         <table>
             <thead>
@@ -140,7 +143,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
                             <td><?php echo htmlspecialchars($user['role']); ?></td>
                             <td><?php echo htmlspecialchars($user['created']); ?></td>
                             <td>
-                                <a href="api/user/delete.php?id=<?php echo $user['id']; ?>" class="button delete" onclick="return confirm('Are you sure you want to delete this user?')">Delete</a>
+                                <button class="delete" onclick="deleteUser(<?php echo $user['id']; ?>)">Delete</button>
                             </td>
                         </tr>
                     <?php endforeach; ?>
@@ -160,7 +163,7 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
             </div>
             <div class="footer__container__left">
                 <h3>Life on Land</h3>
-                <p>&copy; Life on Land is a collaborative website built by a group of students from Universitas Sam Ratulangi</p>
+                <p>© Life on Land is a collaborative website built by a group of students from Universitas Sam Ratulangi</p>
             </div>
             <div class="footer__container__right">
                 <h3>Contact Us</h3>
@@ -173,13 +176,6 @@ $users = $stmt_users->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 
-    <script>
-        function editContent(id, title, description, category) {
-            document.getElementById('content_id').value = id;
-            document.getElementById('title').value = title;
-            document.getElementById('description').value = description;
-            document.getElementById('category').value = category;
-        }
-    </script>
+    <script src="js/admin.js"></script>
 </body>
 </html>

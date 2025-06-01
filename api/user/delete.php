@@ -15,23 +15,23 @@ try {
     $id = isset($_GET['id']) ? $_GET['id'] : null;
     if (!$id) {
         header('Content-Type: application/json');
-        echo json_encode(['status' => false, 'message' => 'Content ID not provided']);
+        echo json_encode(['status' => false, 'message' => 'User ID not provided']);
         exit();
     }
 
-    $query = "DELETE FROM content WHERE id = :id";
+    $query = "DELETE FROM users WHERE id = :id";
     $stmt = $db->prepare($query);
     $stmt->bindParam(':id', $id);
 
     if ($stmt->execute()) {
         header('Content-Type: application/json');
-        echo json_encode(['status' => true, 'message' => 'Content deleted successfully']);
+        echo json_encode(['status' => true, 'message' => 'User deleted successfully']);
     } else {
         header('Content-Type: application/json');
-        echo json_encode(['status' => false, 'message' => 'Failed to delete content']);
+        echo json_encode(['status' => false, 'message' => 'Failed to delete user']);
     }
 } catch (Exception $e) {
-    error_log('Content delete error: ' . $e->getMessage());
+    error_log('User delete error: ' . $e->getMessage());
     header('Content-Type: application/json');
     echo json_encode(['status' => false, 'message' => 'Error: ' . $e->getMessage()]);
 }
