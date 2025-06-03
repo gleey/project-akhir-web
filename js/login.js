@@ -7,8 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const username = document.querySelector('.sign-in-htm .group input[name="username"]').value;
         const password = document.querySelector('.sign-in-htm .group input[name="password"]').value;
         
-        const encodedPassword = btoa(password);
+        console.log('Login attempt:', { username, password }); // Debug input
         
+        const encodedPassword = btoa(password);    
+
         const xhr = new XMLHttpRequest();
         xhr.open('POST', 'api/user/login.php', true);
         

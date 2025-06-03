@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
         
-        const encodedPassword = btoa(password);
-        console.log('Sending AJAX request to signup.php');
+        const encodedPassword = btoa(password); // Enkripsi kata sandi dengan btoa
+        console.log('Encoded Password:', encodedPassword); // Log untuk debugging
         
         const xhr = new XMLHttpRequest();
-        xhr.open('POST', 'api/user/signup.php', true); // Adjusted path to match your server navigation
+        xhr.open('POST', 'api/user/signup.php', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         
         xhr.onload = function() {
